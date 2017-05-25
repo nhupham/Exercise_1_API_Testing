@@ -65,8 +65,39 @@ Run all test cases
 ```sh
 $ py.test TestCases/
 ```
+To execute it:
+```sh
+Nhus-MacBook-Pro:Exercise_1_API_Testing-master-1 nhuptt$ py.test Testcases/
+========================================================================== test session starts ===========================================================================
+platform darwin -- Python 3.6.1, pytest-3.0.7, py-1.4.33, pluggy-0.4.0
+rootdir: /Users/nhupham/Downloads/Exercise_1_API_Testing-master-1, inifile:
+plugins: cov-2.5.1
+collected 42 items 
+
+Testcases/test_create_user.py .....
+Testcases/test_delete_user.py .X.....
+Testcases/test_find_user.py ..................
+Testcases/test_get_list.py .......
+Testcases/test_update_user.py .....
+
+================================================================= 41 passed, 1 xpassed in 45.87 seconds ==================================================================
+```
 
 Run a Test case suite
 ```sh
 $ py.test TestCases/test_get_list.py 
 ```
+To execute it:
+```sh
+Nhus-MacBook-Pro:Exercise_1_API_Testing-master-1 nhuptt$ py.test Testcases/test_get_list.py 
+========================================================================== test session starts ===========================================================================
+platform darwin -- Python 3.6.1, pytest-3.0.7, py-1.4.33, pluggy-0.4.0
+rootdir: /Users/nhupham/Downloads/Exercise_1_API_Testing-master-1, inifile:
+plugins: cov-2.5.1
+collected 7 items 
+
+Testcases/test_get_list.py .......
+
+======================================================================== 7 passed in 6.84 seconds ========================================================================
+```
+
