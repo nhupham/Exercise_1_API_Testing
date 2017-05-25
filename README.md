@@ -1,7 +1,6 @@
 # API Testing in Python
 
-## Exercise:
-* A REST testing 
+## Exercise Description: 
 * Tests are defined in basic in python
 * Write tests to automate an API
 * Python is preferred, but it is not mandatory, tests can be written in any language you feel comfortable. 
@@ -11,7 +10,9 @@
 	https://jsonplaceholder.typicode.com/users/ 
 
 ## Create tests for: 
-1. List users 2. Find user 3. Create / Delete / Update users 
+1. List users
+2. Find user
+3. Create / Delete / Update users 
 4. Negative cases
 
 ## Installation
